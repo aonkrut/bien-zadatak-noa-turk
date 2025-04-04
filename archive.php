@@ -1,25 +1,5 @@
 <?php get_header(); ?>
 <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-<style>
-  /* Osnovni stilovi za animacije */
-  [data-aos] {
-    opacity: 0;
-    transition-property: opacity, transform;
-  }
-  
-  [data-aos].aos-animate {
-    opacity: 1;
-  }
-
-  /* Posebni stil za hero animaciju */
-  .hero h1 {
-    transform: translateY(20px);
-  }
-  
-  .hero h1.aos-animate {
-    transform: translateY(0);
-  }
-</style>
 <main class="listing-page">
 
     <!-- Hero sekcija s animacijom -->
